@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 60%;
+}
+
+body {
+  font-family: "Frank Ruhl Libre", serif;
+  -webkit-animation: opening 1s ease-in-out forwards;
+          animation: opening 1s ease-in-out forwards;
+}
+
+h1 {
+  font-size: var(--header1);
+  font-family: "Teko", sans-serif;
+}
+
+li,
+button,
+label,
+input,
+p,
+a {
+  font-size: var(--text);
+}
+
+h2 {
+  font-size: var(--header2);
+}
+
+h3 {
+  font-size: var(--header3);
+}
+
+h4,
+h5 {
+  font-size: var(--header4);
+}
+/*# sourceMappingURL=style.css.map */
