@@ -71,10 +71,55 @@ nav {
 .intro-text,
 .intro-images {
   flex: 1 1 40rem;
-  
 }
 
 .me {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+#plant-left {
+  animation: plant 1.5s ease infinite alternate;
+}
+
+#plant-right {
+  animation: plant 1.5s ease infinite alternate 0.5s;
+}
+
+// #me {
+//   animation: me 1.5s ease infinite alternate;
+// }
+
+// @keyframes me {
+//   from {
+//     transform: rotateZ(-3deg);
+//   }
+//   to {
+//     transform: rotateZ(3deg);
+//   }
+// }
+#clock-arrow {
+  animation: clock 1.5s infinite linear;
+  transform-box: fill-box;
+  transform-origin: bottom;
+}
+
+
+@keyframes plant {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-30%);
+  }
+}
+
+
+@keyframes clock {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
 }
