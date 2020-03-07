@@ -17,6 +17,8 @@ $gray-text: #2c2c2c;
 @import "global";
 @import "intro";
 @import "projects";
+@import "contact";
+@import "footer";
 
 @media screen and (max-width: 1332px) {
   html {
@@ -55,22 +57,27 @@ $gray-text: #2c2c2c;
     }
   }
   .intro-text {
-      margin-top: 5rem;
-      text-align: center;
+    margin-top: 5rem;
+    text-align: center;
   }
-  .intro-images{
-      text-align: center;
+  .intro-images {
+    text-align: center;
   }
-  .intro-social{
-      @include flex(center,center,row);
-      a{
-          margin: 2rem;
-      }
+  .intro-social {
+    @include flex(center, center, row);
+    a {
+      margin: 2rem;
+    }
   }
 
-  .travel1,.photo1{
+  .travel1,
+  .photo1 {
     flex: 1 1 50rem;
     width: 100%;
     height: 100%;
+  }
+  form {
+    width: 100%;
+    padding: 0rem;
   }
 }
