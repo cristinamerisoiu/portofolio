@@ -1,21 +1,22 @@
 .projects {
-    width: 90%;
-    margin: auto;
-    min-height: 90vh;
-    @include flex(space-between,center,row);
-    text-align: center;
-    flex-wrap: wrap;
-    h2{
-        margin: 5rem;
-    }
+  width: 90%;
+  margin: auto;
+  min-height: 90vh;
+  @include flex(space-between, center, row);
+  text-align: center;
+  flex-wrap: wrap;
+  h2 {
+    margin: 5rem;
+  }
 }
 
-
-.travelweb,.victormaracine{
-    flex:1 1 40rem;
+.travelweb,
+.victormaracine {
+  flex: 1 1 40rem;
 }
 
-.travel1,.photo1{
-    width: 90%;
-    height: 100%;
+.travel1,
+.photo1 {
+  width: 90%;
+  height: 100%;
 }

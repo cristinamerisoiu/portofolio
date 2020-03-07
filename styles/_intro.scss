@@ -86,18 +86,6 @@ nav {
   animation: plant 1.5s ease infinite alternate 0.5s;
 }
 
-// #me {
-//   animation: me 1.5s ease infinite alternate;
-// }
-
-// @keyframes me {
-//   from {
-//     transform: rotateZ(-3deg);
-//   }
-//   to {
-//     transform: rotateZ(3deg);
-//   }
-// }
 #clock-arrow {
   animation: clock 1.5s infinite linear;
   transform-box: fill-box;
